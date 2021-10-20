@@ -1,12 +1,6 @@
 # oracle-master
 Oracle DB資格取得用リポジトリ
 
-## Oracle 接続情報
-~~~
-ユーザー名 : system
-パスワード : T********3
-~~~
-
 ## 接続情報メモ
 ~~~
 HOST : LAPTOP-LL07K4AP
