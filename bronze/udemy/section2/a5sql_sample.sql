@@ -1,0 +1,18 @@
+--*DataTitle 'FUJI.ACCOUNT'
+--*CaptionFromComment
+SELECT
+    ACCOUNT_ID, 
+    LAST_NAME, 
+    FIRST_NAME, 
+    AGE, 
+    BIRTH_DAY, 
+    CREATED_AT, 
+    CREATE_USER, 
+    UPDATE_AT, 
+    UPDATE_USER, 
+    DELETE_FLG 
+FROM
+    ACCOUNT 
+ORDER BY
+    ACCOUNT_ID;
+
