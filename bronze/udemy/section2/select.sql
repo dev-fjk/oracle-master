@@ -28,7 +28,7 @@ SELECT
 FROM
     EMP;
 
--- Dual句 Oracle限定のダミーテーブル 演算式の処理確認などに使用する
+-- DUAL句 ORACLE限定のダミーテーブル 演算式の処理確認などに使用する
 SELECT
     1 + 2 + 3 + 4 + 5,
     100 / 2
@@ -36,9 +36,9 @@ FROM
     DUAL;
 
 -- 基礎文法系
-select
-    count(*)
-from
+SELECT
+    COUNT(*)
+FROM
     EMP;
 
 SELECT *
@@ -46,8 +46,8 @@ FROM
     EMP;
 
 -- AS句 列別名
--- Spaceや 記号を混在させたい場合は　ダブルクォートで囲む
-select
+-- SPACEや 記号を混在させたい場合は　ダブルクォートで囲む
+SELECT
     EMPNO,
     ENAME         AS "従業員 名",
     JOB           AS 職業,
@@ -60,7 +60,7 @@ select
 FROM
     EMP;
 
-select
+SELECT
     EMPNO,
     ENAME
 FROM
