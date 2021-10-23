@@ -15,7 +15,8 @@ pass : fujifuji
 [ORACLE MASTER Silver DBA 2019](https://education.oracle.com/ja/products/trackp_DB19COCA)
 
 ## 参考サイト
-[OracleSQL入門-Oracleで使われるデータ型の一覧](http://kanesuzu-san.com/oracle-datatype)
+[OracleSQL入門-Oracleで使われるデータ型の一覧](http://kanesuzu-san.com/oracle-datatype)  
+[オラクル ちょこっとリファレンス](https://oracle-chokotto.com/)
 
 ## 環境構築系の記事
 [AI can fly !!](https://ai-can-fly.hateblo.jp/entry/oracle-database-create#Database-Configuration-Assistant-DBCA-%E3%81%A8%E3%81%AF)  
