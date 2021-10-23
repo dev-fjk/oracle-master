@@ -14,3 +14,11 @@
 ・Section9  : 集合演算子(UNION/INTERSECT/MINUS)の使用方法
 ・Section10 : INSERT/UPDATE/DELETE
 ~~~
+
+## 備忘録
+~~~
+・tnsnames.oraとは
+　・データベースサーバに接続するためにクライアント側に配備しておく設定ファイルのこと
+　・dbhome/network/admin配下に作成される。
+　・Oracleに対する接続情報が記載された設定ファイル
+~~~
