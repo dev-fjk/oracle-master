@@ -1,0 +1,69 @@
+-- WHERE句周りの基礎文法まとめ
+SELECT *
+FROM
+    EMP
+WHERE
+    EMPNO = 7900;
+
+SELECT *
+FROM
+    EMP
+WHERE
+    ENAME = 'FORD';
+
+SELECT *
+FROM
+    EMP
+WHERE
+    SAL > 3000;
+
+SELECT *
+FROM
+    EMP
+WHERE
+    SAL >= 3000;
+
+SELECT *
+FROM
+    EMP
+WHERE
+    SAL BETWEEN 800 AND 1250;
+
+SELECT *
+FROM
+    EMP
+WHERE
+    EMPNO IN (7369, 7698, 7900);
+
+-- Mから始まる名前のデータ全て
+SELECT *
+FROM
+    EMP
+WHERE
+    ENAME LIKE 'M%';
+
+-- Mから始まりRで終わる職種のデータ全て
+SELECT *
+FROM
+    EMP
+WHERE
+    JOB LIKE 'M%R';
+
+-- 7からはじまり4で終わる四桁のNO(_は任意の1文字を表す)
+SELECT *
+FROM
+    EMP
+WHERE
+    EMPNO LIKE '7__4';
+
+SELECT *
+FROM
+    EMP
+WHERE
+    COMM IS NULL;
+
+SELECT *
+FROM
+    EMP
+WHERE
+    COMM IS NOT NULL;
